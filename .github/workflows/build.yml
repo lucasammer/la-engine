@@ -1,4 +1,4 @@
-name: A workflow to build an application
+name: Build
 
 
 on:
@@ -27,7 +27,7 @@ jobs:
 
       with:
 
-        dotnet-version: 5.0.x
+        dotnet-version: 6.0.x
 
     
 
