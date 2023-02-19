@@ -2,11 +2,7 @@ name: A workflow to build an application
 
 
 on:
-
-  push:
-
-    branches: [ main ]
-
+  workflow_dispatch:
 
 jobs:
 
